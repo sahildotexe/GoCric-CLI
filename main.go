@@ -45,8 +45,6 @@ func main() {
 
 	c.Visit("https://www.cricbuzz.com/cricket-match/live-scores")
 
-	fmt.Printf("Matches: %v\n", matches[0])
-
 	menu := gocliselect.NewMenu("Choose the match")
 
 	for _, match := range matches {
